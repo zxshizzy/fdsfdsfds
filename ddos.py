@@ -2,6 +2,8 @@ import time
 import random
 from colorama import *
 
+init(autoreset=True)
+
 url = input("Введіть юрл російського сайту: ")
 i = int(input("Введіть кількість пакетів (аттак на сайт): "))   
 print("Слава Україні!")
